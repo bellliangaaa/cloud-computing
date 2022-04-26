@@ -36,7 +36,12 @@ CREATE TABLE `route` (
 
 LOCK TABLES `route` WRITE;
 /*!40000 ALTER TABLE `route` DISABLE KEYS */;
-INSERT INTO `route` VALUES ('r1','Lion rock','Advanced difficulty','https://follo3me.com/route/kowloon-tko/lion-rock/'),('r2','Po Kwu Wan','Medium difficulty','https://follo3me.com/route/sai-kung/po-kwu-wan/'),('r3','Long Ke Wan','Medium and advanced difficulty','https://follo3me.com/route/sai-kung/long-ke-wan/'),('r4','Ocean Point','Lower difficulty','https://follo3me.com/route/sai-kung/ocean-point/'),('r5','Lung Shan','Medium difficulty','https://follo3me.com/route/nent/lung-shan/'),('r6','Boa Vista','Medium difficulty','https://follo3me.com/route/hk/boa-vista/');
+INSERT INTO `route` VALUES ('r1','Lion rock','Advanced difficulty','https://follo3me.com/route/kowloon-tko/lion-rock/'),
+('r2','Po Kwu Wan','Medium difficulty','https://follo3me.com/route/sai-kung/po-kwu-wan/'),
+('r3','Long Ke Wan','Medium and advanced difficulty','https://follo3me.com/route/sai-kung/long-ke-wan/'),
+('r4','Ocean Point','Lower difficulty','https://follo3me.com/route/sai-kung/ocean-point/'),
+('r5','Lung Shan','Medium difficulty','https://follo3me.com/route/nent/lung-shan/'),
+('r6','Boa Vista','Medium difficulty','https://follo3me.com/route/hk/boa-vista/');
 /*!40000 ALTER TABLE `route` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
